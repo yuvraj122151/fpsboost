@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost",
+  "version": "1.0.0",
+  "name": "FPS Boost",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.fpsboost.FpsBoostClient"] },
+  "depends": { "fabricloader": ">=0.17.0", "minecraft": "1.21.11", "fabric-api": "*" }
+}
